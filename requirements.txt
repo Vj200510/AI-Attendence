@@ -4,9 +4,9 @@ streamlit
 numpy
 pandas
 
-# Face Recognition
+# Face Recognition — using pre-compiled binaries (no compilation needed)
 scikit-learn
-dlib
+dlib-bin
 face_recognition
 face_recognition_models
 
