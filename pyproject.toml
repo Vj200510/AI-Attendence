@@ -1,0 +1,5 @@
+[tool.uv]
+compile-bytecode = false
+
+[tool.uv.pip]
+timeout = 600

@@ -6,6 +6,7 @@ pandas
 
 # Face Recognition
 scikit-learn
+dlib-bin
 face_recognition
 face_recognition_models
 
