@@ -1,0 +1,16 @@
+# Secrets — never commit this
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+
+# Static assets that shouldn't be in repo
+static/img/vishal_jain.png
