@@ -4,14 +4,14 @@ streamlit
 numpy
 pandas
 
-# Face Recognition — using pre-compiled binaries (no compilation needed)
+# Face Recognition — pre-compiled binaries
 scikit-learn
 dlib-bin
 face_recognition
 face_recognition_models
 
 # Database
-supabase
+supabase==2.10.0
 bcrypt
 
 # QR Code
