@@ -1,4 +1,16 @@
 
+import os
+import glob
+
+# Fix missing libwebp.so.6 symlink (dlib wheel compiled against older version)
+for lib in glob.glob('/usr/lib/x86_64-linux-gnu/libwebp.so.*'):
+    target = '/usr/lib/x86_64-linux-gnu/libwebp.so.6'
+    if not os.path.exists(target):
+        try:
+            os.symlink(lib, target)
+        except Exception:
+            pass
+
 import streamlit as st
 
 from src.screens.home_screen import home_screen
