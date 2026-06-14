@@ -1,0 +1,1 @@
+import os; os.symlink('/usr/lib/x86_64-linux-gnu/libwebp.so.7', '/usr/lib/x86_64-linux-gnu/libwebp.so.6') if not os.path.exists('/usr/lib/x86_64-linux-gnu/libwebp.so.6') else None

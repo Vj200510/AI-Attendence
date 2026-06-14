@@ -4,5 +4,5 @@ libpng16-16t64
 libjpeg62-turbo
 libx11-6
 libwebp7
-libglib2.0-0t64
 libwebp-dev
+libglib2.0-0t64
