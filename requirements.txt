@@ -21,4 +21,4 @@ pillow
 # Voice
 librosa
 resemblyzer
-setuptools
+setuptools>=65.0.0
