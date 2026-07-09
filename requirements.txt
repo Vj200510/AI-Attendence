@@ -21,3 +21,4 @@ pillow
 # Voice
 librosa
 resemblyzer
+setuptools
